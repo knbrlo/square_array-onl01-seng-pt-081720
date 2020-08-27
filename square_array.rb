@@ -3,9 +3,7 @@ def square_array(array)
  array.each do |number|
    puts "Before #{number}"
    squared = number**2
-   new_array << squared
-   puts "After #{squared}"
-   puts "Final Array #{new_array}"
+   new_array << number**2
  end
  new_array
 end
