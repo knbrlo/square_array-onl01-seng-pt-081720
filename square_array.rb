@@ -1,4 +1,7 @@
 def square_array(array)
- new_array =  array.each{|item| item**2 }
- puts new_array
+ array.each do |number|
+   puts "Before #{number}"
+   squared = number**2
+   puts "After #{squared}"
+ end
 end
