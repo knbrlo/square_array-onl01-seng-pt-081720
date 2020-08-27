@@ -7,4 +7,5 @@ def square_array(array)
    puts "After #{squared}"
    puts "Final Array #{new_array}"
  end
+ new_array
 end
